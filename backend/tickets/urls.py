@@ -4,5 +4,4 @@ from .views import TicketViewSet
 
 router = routers.DefaultRouter()
 router.register(r'tickets', TicketViewSet)
-
 urlpatterns = router.urls
